@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Longhorn2004/Desktop/cpl-reborn/build/cmake_install.cmake",
+		"C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

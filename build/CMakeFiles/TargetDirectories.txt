@@ -1,0 +1,8 @@
+C:/Users/Longhorn2004/Desktop/cpl-reborn/build/CMakeFiles/classic_panel.dir
+C:/Users/Longhorn2004/Desktop/cpl-reborn/build/CMakeFiles/ClassicPanelInjector.dir
+C:/Users/Longhorn2004/Desktop/cpl-reborn/build/CMakeFiles/INSTALL.dir
+C:/Users/Longhorn2004/Desktop/cpl-reborn/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Longhorn2004/Desktop/cpl-reborn/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-build/CMakeFiles/minhook.dir
+C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-build/CMakeFiles/INSTALL.dir
+C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-build/CMakeFiles/ALL_BUILD.dir

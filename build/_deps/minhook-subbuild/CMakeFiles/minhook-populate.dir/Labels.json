@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/CMakeFiles/minhook-populate"
+		},
+		{
+			"file" : "C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/CMakeFiles/5732d909b6f665395202552279b515ae/minhook-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/CMakeFiles/5e3401a7e5fb06d3f6af4206dad27c62/minhook-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/CMakeFiles/bd17798a0730f98531280f7e06982e7f/minhook-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/CMakeFiles/bd17798a0730f98531280f7e06982e7f/minhook-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/CMakeFiles/bd17798a0730f98531280f7e06982e7f/minhook-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/CMakeFiles/bd17798a0730f98531280f7e06982e7f/minhook-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/CMakeFiles/bd17798a0730f98531280f7e06982e7f/minhook-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/CMakeFiles/bd17798a0730f98531280f7e06982e7f/minhook-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/CMakeFiles/bd17798a0730f98531280f7e06982e7f/minhook-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/CMakeFiles/bd17798a0730f98531280f7e06982e7f/minhook-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"minhook-populate"
+		],
+		"name" : "minhook-populate"
+	}
+}

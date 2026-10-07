@@ -1,0 +1,150 @@
+^C:\USERS\LONGHORN2004\DESKTOP\CPL-REBORN\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\BD17798A0730F98531280F7E06982E7F\MINHOOK-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/minhook-populate-prefix/tmp/minhook-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LONGHORN2004\DESKTOP\CPL-REBORN\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\BD17798A0730F98531280F7E06982E7F\MINHOOK-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/minhook-populate-prefix/tmp/minhook-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LONGHORN2004\DESKTOP\CPL-REBORN\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\BD17798A0730F98531280F7E06982E7F\MINHOOK-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps\minhook-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/minhook-populate-prefix/tmp/minhook-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LONGHORN2004\DESKTOP\CPL-REBORN\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\BD17798A0730F98531280F7E06982E7F\MINHOOK-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LONGHORN2004\DESKTOP\CPL-REBORN\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\BD17798A0730F98531280F7E06982E7F\MINHOOK-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps\minhook-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LONGHORN2004\DESKTOP\CPL-REBORN\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\BD17798A0730F98531280F7E06982E7F\MINHOOK-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps\minhook-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LONGHORN2004\DESKTOP\CPL-REBORN\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\BD17798A0730F98531280F7E06982E7F\MINHOOK-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps\minhook-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LONGHORN2004\DESKTOP\CPL-REBORN\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\BD17798A0730F98531280F7E06982E7F\MINHOOK-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps\minhook-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LONGHORN2004\DESKTOP\CPL-REBORN\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\5E3401A7E5FB06D3F6AF4206DAD27C62\MINHOOK-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/CMakeFiles/Debug/minhook-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LONGHORN2004\DESKTOP\CPL-REBORN\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\5732D909B6F665395202552279B515AE\MINHOOK-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LONGHORN2004\DESKTOP\CPL-REBORN\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild -BC:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild --check-stamp-file C:/Users/Longhorn2004/Desktop/cpl-reborn/build/_deps/minhook-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

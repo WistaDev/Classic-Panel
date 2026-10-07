@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps\minhook-subbuild\CMakeFiles\bd17798a0730f98531280f7e06982e7f\minhook-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps\minhook-subbuild\CMakeFiles\bd17798a0730f98531280f7e06982e7f\minhook-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps\minhook-subbuild\CMakeFiles\bd17798a0730f98531280f7e06982e7f\minhook-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps\minhook-subbuild\CMakeFiles\bd17798a0730f98531280f7e06982e7f\minhook-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps\minhook-subbuild\CMakeFiles\bd17798a0730f98531280f7e06982e7f\minhook-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps\minhook-subbuild\CMakeFiles\bd17798a0730f98531280f7e06982e7f\minhook-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps\minhook-subbuild\CMakeFiles\bd17798a0730f98531280f7e06982e7f\minhook-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps\minhook-subbuild\CMakeFiles\bd17798a0730f98531280f7e06982e7f\minhook-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps\minhook-subbuild\CMakeFiles\5e3401a7e5fb06d3f6af4206dad27c62\minhook-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps\minhook-subbuild\CMakeFiles\5732d909b6f665395202552279b515ae\minhook-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps\minhook-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Longhorn2004\Desktop\cpl-reborn\build\_deps\minhook-subbuild\CMakeFiles\minhook-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{40D1D62F-B087-3A10-BBA9-AA75DA69B020}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\LONGHORN2004\DESKTOP\CPL-REBORN\BUILD\CMAKEFILES\96C5B2C8ADBFD82299F92471243FB772\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Longhorn2004/Desktop/cpl-reborn -BC:/Users/Longhorn2004/Desktop/cpl-reborn/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Longhorn2004/Desktop/cpl-reborn/build/ClassicPanel.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
